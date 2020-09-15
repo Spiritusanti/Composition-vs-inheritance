@@ -32,3 +32,15 @@ function elf(name, weapon, type) {
 // Review:
 // inheritance is a superclass that is extended to smaller pieces that extends or overwrites things
 // composition is about smaller pieces that are combined to create something bigger. If we need to add something later we add another function or remove one if we need to reduce it. Arguably a more stable and easier to maintain approach.
+
+// Pros and cons of each:
+// FP --> perfomring many different operations for which the data is fixed. Stateless. Functions are pure --> can run on multiple processors. Declarative.
+// OOP --> few operations performed on common data. Stateful. Side effects! Imperative.
+
+// When should we use one over the other?
+// FP --> good at processing large amounts of data for applications. e.g. machine learning
+// OOP --> Many things with not many operations. E.g. characters in a game.
+
+// React uses both! Use a tool when it is useful! In all programs there are two pirmary components, the data and the behaviors.
+// OOP --> bring together the data and the behavior in an object or class
+// FP --> data and behavior are distinctly different things and should be kept separate for clarity.
